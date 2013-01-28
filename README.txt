@@ -1,0 +1,1 @@
+Created a jQuery animate slideshow.  This is a very basic one that is used to slide text within the view area.  It uses an array to get the differnt properites for left.  When sliding text, it also slides a image to show which weeks you are on.  

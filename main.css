@@ -1,0 +1,75 @@
+      body {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            }
+            #wrapper {
+            width: 550px; 
+            height: 430px;
+            overflow: hidden; 
+            }
+            #instructions {font-style: italic;}
+        	#slideContainer {
+        		width:2880px;
+        		height: 100%;
+                position: relative;
+        	}
+            #text{padding-bottom:10px;}
+        	.slides{
+        		background-color: #e7e8ea;
+        		width:480px;
+        		height: 100%;
+        		float:left;
+        	}
+        	#viewArea {
+        		height:200px;
+        		overflow: hidden;
+                width:480px;
+        	}
+        	.week {
+        		float:left;
+                background: url('media/pages/button.png');
+        	    cursor: pointer;
+                width:85px;
+                height: 59px;
+                text-align: center;
+                color: #fff;
+        	}
+            .weekOver {
+                background: url('media/pages/button_over.png');
+                float:left;
+                cursor: pointer;
+                width:85px;
+                height: 59px;
+                text-align: center;
+                color: #fff;
+            }
+            #weeks {
+                width:100%;
+                float: left;
+            }
+            #slideSection {
+                width:100%;
+                background-color: #4c4c4c;
+                height:11px;
+                margin-top:15px;
+            }
+            #slider {
+                height: 31px;
+                width:83px;
+                background: url('media/pages/slider.png');
+                position: relative;
+                top: -5px;
+            }
+            #contentWrapper {
+                -moz-box-shadow: 3px 3px #ccc;
+                -webkit-box-shadow: 3px 3px #ccc;
+                -o-box-shadow: 3px 3px #ccc;
+                box-shadow: 3px 3px #ccc;
+                border: 1px solid #ccc;
+                height: 343px;
+                width:510px;
+            }
+            .center {margin: 0px auto;}
+            #cenMC {width:480px;}
+            .slideText{padding:20px;}
+            .weekText {padding-top:15px;}
